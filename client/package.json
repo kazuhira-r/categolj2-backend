@@ -1,0 +1,20 @@
+{
+    "name": "example",
+    "version": "0.0.1",
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-concat": "*",
+        "gulp-uglify": "*",
+        "gulp-minify-css": "*",
+        "gulp-imagemin": "*",
+        "gulp-sourcemaps": "*",
+        "del": "*"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "prepublish": "bower install --config.interactive=false",
+        "build": "gulp build"
+    }
+}
